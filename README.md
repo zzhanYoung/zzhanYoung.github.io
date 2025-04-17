@@ -1,2 +1,1 @@
-# zzhanYoung.github.io
-The personal homepage of Zihan Yang.
+[Zihan Yang's Homepage](https://zzhanyoung.github.io)
