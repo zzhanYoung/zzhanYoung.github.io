@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,12 +8,58 @@
   <meta name="description" content="Zihan Yang is a robotics researcher working at the intersection of control, learning, and embodied intelligence, with a current focus on legged and humanoid locomotion.">
   <meta name="theme-color" content="#f7f5f0">
 
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Zihan Yang">
+  <meta property="og:title" content="Zihan Yang | Robotics, Control &amp; Learning">
+  <meta property="og:description" content="Robotics research at the intersection of control, learning, and embodied intelligence.">
+  <meta property="og:url" content="https://zzhanyoung.github.io/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Zihan Yang | Robotics, Control &amp; Learning">
+  <meta name="twitter:description" content="Robotics research at the intersection of control, learning, and embodied intelligence.">
+
   <title>Zihan Yang | Robotics, Control &amp; Learning</title>
 
+  <link rel="canonical" href="https://zzhanyoung.github.io/">
   <link rel="icon" href="images/favicon/favicon.ico" sizes="any">
   <link rel="icon" href="images/favicon/favicon-32x32.png" type="image/png">
   <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-  <link rel="stylesheet" href="stylesheet.css?v=20260825-2">
+  <link rel="stylesheet" href="stylesheet.css?v=20260825-3">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zihan Yang",
+      "alternateName": ["Kelvin Yang", "杨子涵"],
+      "url": "https://zzhanyoung.github.io/",
+      "image": "https://zzhanyoung.github.io/images/profile/zihan-yang.jpg",
+      "jobTitle": "Robotics Researcher",
+      "description": "Robotics researcher working at the intersection of control, learning, and embodied intelligence.",
+      "sameAs": [
+        "https://github.com/zzhanYoung/",
+        "https://orcid.org/0009-0005-8448-9126"
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Galbot"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Beihang University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Northwestern Polytechnical University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Queen Mary University of London"
+        }
+      ]
+    }
+  </script>
 </head>
 
 <body>
@@ -24,8 +70,8 @@
       <a class="nav-mark" href="#about" aria-label="Zihan Yang, back to introduction">ZY</a>
       <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#journey">Journey</a>
         <a href="#research">Research</a>
+        <a href="#journey">Journey</a>
         <a href="#projects"><span class="nav-long">Earlier work</span><span class="nav-short">Archive</span></a>
         <a class="nav-cv" href="files/ZihanYang-CV.pdf">CV <span aria-hidden="true">↗</span></a>
       </div>
@@ -40,21 +86,24 @@
           I study how <strong>control and learning</strong> can help robots move, adapt, and interact with the physical world.
           My current work focuses on legged and humanoid locomotion.
         </p>
-        <div class="affiliation-tags" aria-label="Current and upcoming affiliations">
+        <div class="affiliation-tags" role="group" aria-label="Current and upcoming affiliations">
           <span class="affiliation-tag">Research Intern <strong>Galbot</strong></span>
           <span class="affiliation-tag affiliation-tag-accent">Incoming PhD <strong>HKU</strong></span>
         </div>
         <p class="hero-bio">
-          I received my M.S. in Aerospace Science and Technology from
+          I earned an M.S. in Aerospace Science and Technology from
           <a href="https://ev.buaa.edu.cn/">Beihang University</a> in 2026, advised by
           <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=c0MaejIAAAAJ">Prof. Kexin Guo</a>.
-          Before that, I earned a dual bachelor's degree in Materials Science and Engineering from Northwestern
+          Previously, I completed a dual bachelor's degree in Materials Science and Engineering at Northwestern
           Polytechnical University and Queen Mary University of London.
         </p>
 
-        <div class="hero-actions" aria-label="Profile links">
-          <a class="text-link" href="files/ZihanYang-CV.pdf">Curriculum Vitae <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="files/ZihanYang-ResearchStatement.pdf">Research Statement <span aria-hidden="true">↗</span></a>
+        <div class="hero-actions" role="group" aria-label="Primary documents">
+          <a class="action-link action-link-primary" href="files/ZihanYang-CV.pdf">View CV <span aria-hidden="true">↗</span></a>
+          <a class="action-link action-link-secondary" href="files/ZihanYang-ResearchStatement.pdf">Research Statement <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="profile-links" role="group" aria-label="Research profiles">
           <a class="text-link" href="https://github.com/zzhanYoung/">GitHub <span aria-hidden="true">↗</span></a>
           <a class="text-link" href="https://orcid.org/0009-0005-8448-9126">ORCID <span aria-hidden="true">↗</span></a>
         </div>
@@ -73,16 +122,193 @@
       </figure>
     </section>
 
-    <section class="section section-tinted" id="journey" aria-labelledby="journey-title">
+    <section class="section section-tinted" id="research" aria-labelledby="research-title">
+      <div class="container">
+      <div class="section-heading">
+        <p class="section-kicker">Publications</p>
+        <h2 id="research-title">Learning and control for adaptable robots</h2>
+        <p>
+          My published work spans learning-based planning and control, as well as control-theoretic methods that make
+          learned dynamics more robust and generalizable. Publications are ordered newest first; featured entries
+          foreground first- and equal-author contributions. * denotes equal contribution.
+        </p>
+      </div>
+
+      <div class="publication-timeline">
+        <section class="publication-year" aria-labelledby="publications-2026">
+          <h3 class="publication-year-label" id="publications-2026">2026</h3>
+          <div class="publication-year-items">
+            <article class="publication-entry">
+              <figure class="publication-media">
+                <a class="media-preview" href="images/publications/phyfilter.png" data-media-type="image" data-media-title="Physics Filtering Favors the Generalization of Robot Learning" data-media-caption="PhyFilter framework and evaluations across quadruped locomotion, drone flight, aerial manipulation, and acceleration perception." aria-label="Open a larger preview of the PhyFilter framework">
+                  <img src="images/publications/phyfilter.png" alt="PhyFilter algorithm, physics-informed filter, and evaluations on quadruped locomotion, drone flight, aerial manipulation, and acceleration perception" width="1025" height="774" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">View figure</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels">
+                  <span class="tag">npj Robotics</span>
+                  <span class="tag tag-accent">New</span>
+                </div>
+                <h4><a href="https://arxiv.org/abs/2608.22701">Physics Filtering Favors the Generalization of Robot Learning</a></h4>
+                <p class="authors">Jindou Jia, Shixuan Han, Meng Wang, Gen Li, <strong>Zihan Yang</strong>, Sicheng Zhou, Kexin Guo, Jianfei Yang, Xiang Yu, Wei Wang, and Lei Guo</p>
+                <p class="venue">Accepted by npj Robotics, 2026</p>
+                <p class="publication-summary">A lightweight, model-agnostic physics-filtered feedback module that improves robot-policy generalization under dynamics uncertainty with limited training data.</p>
+                <div class="resource-links">
+                  <a href="https://arxiv.org/abs/2608.22701" aria-label="Read Physics Filtering Favors the Generalization of Robot Learning on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication-entry is-highlighted">
+              <figure class="publication-media">
+                <a class="media-preview media-preview-video" href="images/publications/meta-disturbance.mp4" data-media-type="video" data-media-poster="images/publications/meta-disturbance.jpg" data-media-title="Unified Meta-Representation and Feedback Calibration" data-media-caption="General disturbance estimation and feedback calibration in simulation and physical experiments." aria-label="Open the video for Unified Meta-Representation and Feedback Calibration">
+                  <img src="images/publications/meta-disturbance.jpg" alt="Visualization of general disturbance estimation and feedback calibration" width="1080" height="720" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">Play video</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels">
+                  <span class="tag">ICRA 2026</span>
+                  <span class="tag tag-accent">Featured</span>
+                </div>
+                <h4><a href="https://nonstructural-metalearn.github.io">Unified Meta-Representation and Feedback Calibration for General Disturbance Estimation</a></h4>
+                <p class="authors"><strong>Zihan Yang</strong>, Jindou Jia, Meng Wang, Yuhang Liu, Kexin Guo, and Xiang Yu</p>
+                <p class="venue">International Conference on Robotics and Automation, 2026</p>
+                <p class="publication-summary">A meta-adaptation framework for predicting general non-structural disturbances, followed by feedback-calibrated online adaptation.</p>
+                <div class="resource-links">
+                  <a href="https://nonstructural-metalearn.github.io" aria-label="Visit the project page for Unified Meta-Representation and Feedback Calibration for General Disturbance Estimation">Project <span aria-hidden="true">↗</span></a>
+                  <a href="https://arxiv.org/abs/2601.02762" aria-label="Read Unified Meta-Representation and Feedback Calibration for General Disturbance Estimation on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication-entry">
+              <figure class="publication-media">
+                <a class="media-preview" href="images/publications/coupled-disturbance-observer.jpg" data-media-type="image" data-media-title="Learning-Based Observer for Coupled Disturbance" data-media-caption="Learning-based observer architecture for separating and estimating coupled disturbances." aria-label="Open a larger preview of the coupled-disturbance observer architecture">
+                  <img src="images/publications/coupled-disturbance-observer.jpg" alt="Learning-based observer architecture for coupled disturbances" width="1064" height="754" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">View figure</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels"><span class="tag">ICRA 2026</span></div>
+                <h4><a href="https://arxiv.org/abs/2407.13229">Learning-Based Observer for Coupled Disturbance</a></h4>
+                <p class="authors">Jindou Jia<sup>*</sup>, Meng Wang<sup>*</sup>, <strong>Zihan Yang</strong>, Bin Yang, Yuhang Liu, Kexin Guo, and Xiang Yu</p>
+                <p class="venue">International Conference on Robotics and Automation, 2026</p>
+                <p class="publication-summary">A Chebyshev-polynomial approach that decouples disturbances and learns the external-input-related component online.</p>
+                <div class="resource-links">
+                  <a href="https://arxiv.org/abs/2407.13229" aria-label="Read Learning-Based Observer for Coupled Disturbance on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication-entry">
+              <figure class="publication-media">
+                <a class="media-preview" href="images/publications/control-friendly-trajectories.png" data-media-type="image" data-media-title="Optimizing Control-Friendly Trajectories with Self-Supervised Residual Learning" data-media-caption="Control-friendly trajectory optimization with self-supervised residual learning." aria-label="Open a larger preview of control-friendly trajectory optimization">
+                  <img src="images/publications/control-friendly-trajectories.png" alt="Control-friendly trajectory optimization with residual learning" width="2275" height="1347" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">View figure</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels"><span class="tag tag-neutral">arXiv 2026</span></div>
+                <h4><a href="https://arxiv.org/abs/2601.02738">Optimizing Control-Friendly Trajectories with Self-Supervised Residual Learning</a></h4>
+                <p class="authors">Kexin Guo<sup>*</sup>, <strong>Zihan Yang<sup>*</sup></strong>, Yuhang Liu, Jindou Jia, and Xiang Yu</p>
+                <p class="venue">arXiv preprint, 2026</p>
+                <p class="publication-summary">A trajectory-optimization approach for taming model uncertainty by minimizing residual dynamics.</p>
+                <div class="resource-links">
+                  <a href="https://arxiv.org/abs/2601.02738" aria-label="Read Optimizing Control-Friendly Trajectories with Self-Supervised Residual Learning on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="publication-year" aria-labelledby="publications-2025">
+          <h3 class="publication-year-label" id="publications-2025">2025</h3>
+          <div class="publication-year-items">
+            <article class="publication-entry is-highlighted">
+              <figure class="publication-media">
+                <a class="media-preview" href="images/publications/feedback-neural-ode.jpg" data-media-type="image" data-media-title="Feedback Favors the Generalization of Neural ODEs" data-media-caption="Feedback neural network architecture for improving neural ODE generalization." aria-label="Open a larger preview of the feedback neural network architecture">
+                  <img src="images/publications/feedback-neural-ode.jpg" alt="Diagram illustrating a feedback neural network for neural ODEs" width="917" height="643" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">View figure</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels">
+                  <span class="tag">ICLR 2025</span>
+                  <span class="tag tag-award">Oral presentation</span>
+                </div>
+                <h4><a href="https://sites.google.com/view/feedbacknn">Feedback Favors the Generalization of Neural ODEs</a></h4>
+                <p class="authors">Jindou Jia<sup>*</sup>, <strong>Zihan Yang<sup>*</sup></strong>, Meng Wang, Kexin Guo, and Xiang Yu</p>
+                <p class="venue">International Conference on Learning Representations, 2025</p>
+                <p class="publication-summary">Feedback neural networks improve the generalization of neural ODEs through real-time state feedback in continuous-time tasks.</p>
+                <div class="resource-links">
+                  <a href="https://sites.google.com/view/feedbacknn" aria-label="Visit the project page for Feedback Favors the Generalization of Neural ODEs">Project <span aria-hidden="true">↗</span></a>
+                  <a href="https://arxiv.org/abs/2410.10253" aria-label="Read Feedback Favors the Generalization of Neural ODEs on arXiv">arXiv <span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/JIAjindou/Feedback-neural-network" aria-label="View code for Feedback Favors the Generalization of Neural ODEs on GitHub">Code <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication-entry">
+              <figure class="publication-media">
+                <a class="media-preview" href="images/publications/hydrogen-uav.jpg" data-media-type="image" data-media-title="Co-Optimization of Motion and Energy Domain for Hydrogen-Powered Hybrid UAVs" data-media-caption="Motion and energy co-optimization architecture for a hydrogen-powered hybrid UAV." aria-label="Open a larger preview of the hydrogen-powered UAV architecture">
+                  <img src="images/publications/hydrogen-uav.jpg" alt="Motion and energy co-optimization architecture for a hydrogen-powered UAV" width="803" height="558" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">View figure</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels"><span class="tag">ICCA 2025</span></div>
+                <h4><a href="https://ieeexplore.ieee.org/document/11129812">Co-Optimization of Motion and Energy Domain for Hydrogen-Powered Hybrid UAVs</a></h4>
+                <p class="authors">Xiaowei Song, Xiaoyu Guo, Guowei Liu, <strong>Zihan Yang</strong>, and Lu Liu</p>
+                <p class="venue">International Conference on Control and Automation, 2025</p>
+                <p class="publication-summary">A bidirectionally coupled architecture for co-optimizing motion and energy in hydrogen-powered hybrid UAVs.</p>
+                <div class="resource-links">
+                  <a href="https://ieeexplore.ieee.org/document/11129812" aria-label="View Co-Optimization of Motion and Energy Domain for Hydrogen-Powered Hybrid UAVs on IEEE Xplore">IEEE Xplore <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="publication-year" aria-labelledby="publications-2024">
+          <h3 class="publication-year-label" id="publications-2024">2024</h3>
+          <div class="publication-year-items">
+            <article class="publication-entry is-highlighted">
+              <figure class="publication-media">
+                <a class="media-preview media-preview-video" href="images/publications/trace.mp4" data-media-type="video" data-media-poster="images/publications/trace-thumbnail.jpg" data-media-title="TRACE: Trajectory Refinement with Control Error" data-media-caption="Quadrotor maneuvers refined through closed-loop control error." aria-label="Open the TRACE trajectory-refinement video">
+                  <img src="images/publications/trace-thumbnail.jpg" alt="Quadrotor flight trajectory refined using control error" width="797" height="576" loading="lazy" decoding="async">
+                  <span class="media-hint" aria-hidden="true">Play video</span>
+                </a>
+              </figure>
+              <div class="publication-copy">
+                <div class="publication-labels">
+                  <span class="tag">ICCA 2024</span>
+                  <span class="tag tag-award">Best Student Paper</span>
+                </div>
+                <h4><a href="https://ieeexplore.ieee.org/document/10591858">TRACE: Trajectory Refinement with Control Error Enables Safe and Accurate Maneuvers</a></h4>
+                <p class="authors"><strong>Zihan Yang</strong>, Jindou Jia, Yuhang Liu, Kexin Guo, Xiang Yu, and Lei Guo</p>
+                <p class="venue">International Conference on Control and Automation, 2024</p>
+                <p class="publication-summary">Closed-loop trajectory refinement using differential flatness for safe, accurate quadrotor maneuvers without controller fine-tuning.</p>
+                <div class="resource-links">
+                  <a href="https://ieeexplore.ieee.org/document/10591858" aria-label="View TRACE: Trajectory Refinement with Control Error Enables Safe and Accurate Maneuvers on IEEE Xplore">IEEE Xplore <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" id="journey" aria-labelledby="journey-title">
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">Research journey</p>
           <h2 id="journey-title">A route shaped by building, modeling, and learning</h2>
           <p>
-            I did not begin with a fixed research destination. My early work moved across materials, aircraft design,
-            simulation, control, and learning. Each step clarified the kinds of problems I wanted to pursue, eventually
-            leading me to embodied intelligence—a field where my interests in physical systems, control, and adaptive
-            behavior finally converge.
+            My path moved from materials and aircraft design to simulation, control, and learning. Those foundations
+            now converge in embodied intelligence and adaptive robot behavior.
           </p>
         </div>
 
@@ -115,170 +341,6 @@
       </div>
     </section>
 
-    <section class="section container" id="research" aria-labelledby="research-title">
-      <div class="section-heading">
-        <p class="section-kicker">Publications</p>
-        <h2 id="research-title">Learning and control for adaptable robots</h2>
-        <p>
-          My published work spans learning-based planning and control, as well as control-theoretic methods that make
-          learned dynamics more robust and generalizable. Publications are ordered newest first; highlighted entries
-          mark especially important work. * denotes equal contribution.
-        </p>
-      </div>
-
-      <div class="publication-timeline" aria-label="Publications ordered by year">
-        <section class="publication-year" aria-labelledby="publications-2026">
-          <h3 class="publication-year-label" id="publications-2026">2026</h3>
-          <div class="publication-year-items">
-            <article class="publication-entry is-highlighted">
-              <figure class="publication-media image-preview" tabindex="0" aria-label="Zoom the PhyFilter framework and evaluation overview">
-                <img src="images/publications/phyfilter.png" alt="PhyFilter algorithm, physics-informed filter, and evaluations on quadruped locomotion, drone flight, aerial manipulation, and acceleration perception" width="1025" height="774" loading="lazy" decoding="async">
-              </figure>
-              <div class="publication-copy">
-                <div class="publication-labels">
-                  <span class="tag">npj Robotics</span>
-                  <span class="tag tag-accent">New</span>
-                </div>
-                <h4>Physics Filtering Favors the Generalization of Robot Learning</h4>
-                <p class="authors">Jindou Jia, Shixuan Han, Meng Wang, Gen Li, <strong>Zihan Yang</strong>, Sicheng Zhou, Kexin Guo, Jianfei Yang, Xiang Yu, Wei Wang, and Lei Guo</p>
-                <p class="venue">Accepted by npj Robotics, 2026</p>
-                <p class="publication-summary">A lightweight, model-agnostic physics-filtered feedback module that improves robot-policy generalization under dynamics uncertainty with limited training data.</p>
-                <div class="resource-links">
-                  <a href="https://arxiv.org/abs/2608.22701">arXiv <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="publication-entry is-highlighted">
-              <div class="publication-media video-preview" tabindex="0" role="button" aria-pressed="false" aria-label="Play video preview for Unified Meta-Representation and Feedback Calibration">
-                <img src="images/publications/meta-disturbance.jpg" alt="Visualization of general disturbance estimation and feedback calibration" width="1080" height="720" loading="lazy" decoding="async">
-                <video muted loop playsinline preload="none" aria-hidden="true">
-                  <source src="images/publications/meta-disturbance.mp4" type="video/mp4">
-                </video>
-                <span class="media-hint" aria-hidden="true">Play</span>
-              </div>
-              <div class="publication-copy">
-                <div class="publication-labels">
-                  <span class="tag">ICRA 2026</span>
-                  <span class="tag tag-accent">Featured</span>
-                </div>
-                <h4>Unified Meta-Representation and Feedback Calibration for General Disturbance Estimation</h4>
-                <p class="authors"><strong>Zihan Yang</strong>, Jindou Jia, Meng Wang, Yuhang Liu, Kexin Guo, and Xiang Yu</p>
-                <p class="venue">International Conference on Robotics and Automation, 2026</p>
-                <p class="publication-summary">A meta-adaptation framework for predicting general non-structural disturbances, followed by feedback-calibrated online adaptation.</p>
-                <div class="resource-links">
-                  <a href="https://nonstructural-metalearn.github.io">Project <span aria-hidden="true">↗</span></a>
-                  <a href="https://arxiv.org/abs/2601.02762">arXiv <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="publication-entry">
-              <figure class="publication-media image-preview" tabindex="0" aria-label="Zoom preview for Learning-Based Observer for Coupled Disturbances">
-                <img src="images/publications/coupled-disturbance-observer.jpg" alt="Learning-based observer architecture for coupled disturbances" width="1064" height="754" loading="lazy" decoding="async">
-              </figure>
-              <div class="publication-copy">
-                <div class="publication-labels"><span class="tag">ICRA 2026</span></div>
-                <h4>Learning-Based Observer for Coupled Disturbances</h4>
-                <p class="authors">Jindou Jia<sup>*</sup>, Meng Wang<sup>*</sup>, <strong>Zihan Yang</strong>, Bin Yang, Yuhang Liu, Kexin Guo, and Xiang Yu</p>
-                <p class="venue">International Conference on Robotics and Automation, 2026</p>
-                <p class="publication-summary">A Chebyshev-polynomial approach that decouples disturbances and learns the external-input-related component online.</p>
-                <div class="resource-links">
-                  <a href="https://arxiv.org/abs/2407.13229v2">arXiv <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="publication-entry">
-              <figure class="publication-media image-preview" tabindex="0" aria-label="Zoom preview for control-friendly trajectory optimization">
-                <img src="images/publications/control-friendly-trajectories.png" alt="Control-friendly trajectory optimization with residual learning" width="2275" height="1347" loading="lazy" decoding="async">
-              </figure>
-              <div class="publication-copy">
-                <div class="publication-labels"><span class="tag tag-neutral">arXiv 2026</span></div>
-                <h4>Optimizing Control-Friendly Trajectories with Self-Supervised Residual Learning</h4>
-                <p class="authors">Kexin Guo<sup>*</sup>, <strong>Zihan Yang<sup>*</sup></strong>, Yuhang Liu, Jindou Jia, and Xiang Yu</p>
-                <p class="venue">arXiv preprint, 2026</p>
-                <p class="publication-summary">A trajectory-optimization approach for taming model uncertainty by minimizing residual dynamics.</p>
-                <div class="resource-links">
-                  <a href="https://arxiv.org/abs/2601.02738">arXiv <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="publication-year" aria-labelledby="publications-2025">
-          <h3 class="publication-year-label" id="publications-2025">2025</h3>
-          <div class="publication-year-items">
-            <article class="publication-entry is-highlighted">
-              <figure class="publication-media image-preview" tabindex="0" aria-label="Zoom preview for Feedback Favors the Generalization of Neural ODEs">
-                <img src="images/publications/feedback-neural-ode.jpg" alt="Diagram illustrating a feedback neural network for neural ODEs" width="917" height="643" loading="lazy" decoding="async">
-              </figure>
-              <div class="publication-copy">
-                <div class="publication-labels">
-                  <span class="tag">ICLR 2025</span>
-                  <span class="tag tag-award">Oral presentation</span>
-                </div>
-                <h4>Feedback Favors the Generalization of Neural ODEs</h4>
-                <p class="authors">Jindou Jia<sup>*</sup>, <strong>Zihan Yang<sup>*</sup></strong>, Meng Wang, Kexin Guo, and Xiang Yu</p>
-                <p class="venue">International Conference on Learning Representations, 2025</p>
-                <p class="publication-summary">Feedback neural networks improve the generalization of neural ODEs through real-time state feedback in continuous-time tasks.</p>
-                <div class="resource-links">
-                  <a href="https://sites.google.com/view/feedbacknn">Project <span aria-hidden="true">↗</span></a>
-                  <a href="https://arxiv.org/abs/2410.10253">arXiv <span aria-hidden="true">↗</span></a>
-                  <a href="https://github.com/JIAjindou/Feedback-neural-network">Code <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-
-            <article class="publication-entry">
-              <figure class="publication-media image-preview" tabindex="0" aria-label="Zoom preview for hydrogen-powered hybrid UAV co-optimization">
-                <img src="images/publications/hydrogen-uav.jpg" alt="Motion and energy co-optimization architecture for a hydrogen-powered UAV" width="803" height="558" loading="lazy" decoding="async">
-              </figure>
-              <div class="publication-copy">
-                <div class="publication-labels"><span class="tag">ICCA 2025</span></div>
-                <h4>Co-Optimization of Motion and Energy Domain for Hydrogen-Powered Hybrid UAVs</h4>
-                <p class="authors">Xiaowei Song, Xiaoyu Guo, Guowei Liu, <strong>Zihan Yang</strong>, and Lu Liu</p>
-                <p class="venue">International Conference on Control and Automation, 2025</p>
-                <p class="publication-summary">A bidirectionally coupled architecture for co-optimizing motion and energy in hydrogen-powered hybrid UAVs.</p>
-                <div class="resource-links">
-                  <a href="https://ieeexplore.ieee.org/document/11129812">IEEE Xplore <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="publication-year" aria-labelledby="publications-2024">
-          <h3 class="publication-year-label" id="publications-2024">2024</h3>
-          <div class="publication-year-items">
-            <article class="publication-entry is-highlighted">
-              <div class="publication-media video-preview" tabindex="0" role="button" aria-pressed="false" aria-label="Play video preview for TRACE trajectory refinement">
-                <img src="images/publications/trace.jpg" alt="Quadrotor flight trajectory refined using control error" width="1080" height="720" loading="lazy" decoding="async">
-                <video muted loop playsinline preload="none" aria-hidden="true">
-                  <source src="images/publications/trace.mp4" type="video/mp4">
-                </video>
-                <span class="media-hint" aria-hidden="true">Play</span>
-              </div>
-              <div class="publication-copy">
-                <div class="publication-labels">
-                  <span class="tag">ICCA 2024</span>
-                  <span class="tag tag-award">Best Student Paper</span>
-                </div>
-                <h4>TRACE: Trajectory Refinement with Control Error Enables Safe and Accurate Maneuvers</h4>
-                <p class="authors"><strong>Zihan Yang</strong>, Jindou Jia, Yuhang Liu, Kexin Guo, Xiang Yu, and Lei Guo</p>
-                <p class="venue">International Conference on Control and Automation, 2024</p>
-                <p class="publication-summary">Closed-loop trajectory refinement using differential flatness for safe, accurate quadrotor maneuvers without controller fine-tuning.</p>
-                <div class="resource-links">
-                  <a href="https://ieeexplore.ieee.org/document/10591858">IEEE Xplore <span aria-hidden="true">↗</span></a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-      </div>
-    </section>
-
     <section class="section section-tinted" id="projects" aria-labelledby="projects-title">
       <div class="container">
         <div class="section-heading">
@@ -302,7 +364,7 @@
 
           <div class="project-grid">
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for quadrotor swarm planning and control"><img src="images/projects/quadrotor-swarm.jpg" alt="Quadrotor swarm flying in formation" width="1112" height="683" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/quadrotor-swarm.jpg" data-media-type="image" data-media-title="Quadrotor Swarm Planning and Control" data-media-caption="Quadrotor swarm flying in formation." aria-label="Open a larger image of the quadrotor swarm"><img src="images/projects/quadrotor-swarm.jpg" alt="Quadrotor swarm flying in formation" width="1112" height="683" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2024">2024</time>
                 <h3>Successive Convexification-Based Planning and Disturbance-Aware Tracking Control of Quadrotor Swarms</h3>
@@ -314,7 +376,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for the flying-wing UAV"><img src="images/projects/prandtl-wing.jpg" alt="Prototype of a Prandtl flying-wing UAV" width="1300" height="647" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/prandtl-wing.jpg" data-media-type="image" data-media-title="Design and Control Synthesis of a Flying-Wing UAV" data-media-caption="Prototype of a Prandtl flying-wing UAV." aria-label="Open a larger image of the flying-wing UAV"><img src="images/projects/prandtl-wing.jpg" alt="Prototype of a Prandtl flying-wing UAV" width="1300" height="647" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2024">2024</time>
                 <h3>Design and Control Synthesis of a Flying-Wing UAV</h3>
@@ -326,7 +388,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for graph-based multi-robot delivery planning"><img src="images/projects/multi-robot-delivery.jpg" alt="Graph-based paths for a multi-robot delivery system" width="795" height="625" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/multi-robot-delivery.jpg" data-media-type="image" data-media-title="Graph-Based Multi-Robot Planning for Last-Mile Delivery" data-media-caption="Graph-based paths for a multi-robot delivery system." aria-label="Open a larger image of the multi-robot delivery paths"><img src="images/projects/multi-robot-delivery.jpg" alt="Graph-based paths for a multi-robot delivery system" width="795" height="625" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2023">2023</time>
                 <h3>Graph-Based Multi-Robot Planning for Last-Mile Delivery</h3>
@@ -338,7 +400,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for the alumina sintering simulation"><img src="images/projects/alumina-sintering.jpg" alt="Finite element simulation of an alumina sintering process" width="1558" height="846" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/alumina-sintering.jpg" data-media-type="image" data-media-title="Finite Element Simulation of 3D-Printed Alumina Sintering" data-media-caption="Finite element simulation of an alumina sintering process." aria-label="Open a larger image of the alumina sintering simulation"><img src="images/projects/alumina-sintering.jpg" alt="Finite element simulation of an alumina sintering process" width="1558" height="846" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2023">Undergraduate thesis · 2023</time>
                 <h3>Finite Element Simulation of 3D-Printed Alumina Sintering</h3>
@@ -350,7 +412,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for optimal transport in turbulent flow"><img src="images/projects/turbulent-transport.jpg" alt="Optimal transport trajectories in a turbulent flow" width="992" height="761" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/turbulent-transport.jpg" data-media-type="image" data-media-title="Optimal Transportation in a Rayleigh–Bénard Turbulent Flow" data-media-caption="Optimal transport trajectories in a turbulent flow." aria-label="Open a larger image of optimal transport trajectories"><img src="images/projects/turbulent-transport.jpg" alt="Optimal transport trajectories in a turbulent flow" width="992" height="761" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2022">2022</time>
                 <h3>Optimal Transportation in a Rayleigh–Bénard Turbulent Flow</h3>
@@ -362,7 +424,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for CNN-based airfoil inverse design"><img src="images/projects/airfoil-cnn.jpg" alt="CNN-based airfoil inverse-design results" width="1534" height="1054" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/airfoil-cnn.jpg" data-media-type="image" data-media-title="Deep CNN for Airfoil Inverse Design" data-media-caption="CNN-based airfoil inverse-design results." aria-label="Open a larger image of the airfoil inverse-design results"><img src="images/projects/airfoil-cnn.jpg" alt="CNN-based airfoil inverse-design results" width="1534" height="1054" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2021">Aeromodelling team · 2021</time>
                 <h3>Deep CNN for Airfoil Inverse Design</h3>
@@ -374,7 +436,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for the potential-flow solver"><img src="images/projects/flow-separation-solver.jpg" alt="Potential-flow solution for a decambered wing" width="1511" height="690" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/flow-separation-solver.jpg" data-media-type="image" data-media-title="Potential-Flow Solver for Lift Prediction Under Flow Separation" data-media-caption="Potential-flow solution for a decambered wing." aria-label="Open a larger image of the potential-flow solution"><img src="images/projects/flow-separation-solver.jpg" alt="Potential-flow solution for a decambered wing" width="1511" height="690" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time>2021–2022</time>
                 <h3>Potential-Flow Solver for Lift Prediction Under Flow Separation</h3>
@@ -386,7 +448,7 @@
             </article>
 
             <article class="project-card">
-              <figure class="image-preview" tabindex="0" aria-label="Zoom preview for the cargo UAV"><img src="images/projects/cargo-uav.jpg" alt="Large fixed-wing cargo UAV carrying weights" width="1114" height="631" loading="lazy" decoding="async"></figure>
+              <figure class="project-media"><a class="media-preview" href="images/projects/cargo-uav.jpg" data-media-type="image" data-media-title="Design of a 16 kg Cargo UAV with High Maneuverability" data-media-caption="Large fixed-wing cargo UAV carrying weights." aria-label="Open a larger image of the cargo UAV"><img src="images/projects/cargo-uav.jpg" alt="Large fixed-wing cargo UAV carrying weights" width="1114" height="631" loading="lazy" decoding="async"><span class="media-hint" aria-hidden="true">View image</span></a></figure>
               <div class="project-copy">
                 <time datetime="2021">CADC · 2021</time>
                 <h3>Design of a 16 kg Cargo UAV with High Maneuverability</h3>
@@ -410,6 +472,21 @@
     </aside>
   </main>
 
+  <dialog class="media-dialog" id="media-dialog" aria-labelledby="media-dialog-title" aria-describedby="media-dialog-caption">
+    <div class="media-dialog-panel">
+      <div class="media-dialog-header">
+        <h2 id="media-dialog-title">Media preview</h2>
+        <form method="dialog">
+          <button class="media-dialog-close" type="submit" aria-label="Close media preview">Close</button>
+        </form>
+      </div>
+      <figure class="media-dialog-figure">
+        <div class="media-dialog-content" id="media-dialog-content"></div>
+        <figcaption id="media-dialog-caption"></figcaption>
+      </figure>
+    </div>
+  </dialog>
+
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© 2026 Zihan Yang</p>
@@ -419,50 +496,75 @@
 
   <script>
     (() => {
-      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const dialog = document.querySelector('#media-dialog');
+      const dialogTitle = document.querySelector('#media-dialog-title');
+      const dialogCaption = document.querySelector('#media-dialog-caption');
+      const dialogContent = document.querySelector('#media-dialog-content');
+      const closeButton = document.querySelector('.media-dialog-close');
+      const supportsDialog = typeof dialog?.showModal === 'function';
+      let activeTrigger = null;
+      let pointerStartedOnBackdrop = false;
 
-      document.querySelectorAll('.video-preview').forEach((preview) => {
-        const video = preview.querySelector('video');
-        const hint = preview.querySelector('.media-hint');
-        let pinned = false;
+      if (!supportsDialog) return;
 
-        const stop = () => {
+      const clearMedia = () => {
+        const video = dialogContent.querySelector('video');
+        if (video) {
           video.pause();
-          preview.classList.remove('is-playing');
-          preview.setAttribute('aria-pressed', 'false');
-          hint.textContent = 'Play preview';
-        };
+          video.removeAttribute('src');
+          video.load();
+        }
+        dialogContent.replaceChildren();
+      };
 
-        const play = (userInitiated = false) => {
-          if (prefersReducedMotion.matches && !userInitiated) return;
-          video.play().then(() => {
-            preview.classList.add('is-playing');
-            preview.setAttribute('aria-pressed', 'true');
-            hint.textContent = 'Pause preview';
-          }).catch(stop);
-        };
+      document.querySelectorAll('.media-preview[data-media-type]').forEach((trigger) => {
+        trigger.addEventListener('click', (event) => {
+          if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
 
-        const toggle = () => {
-          pinned = !preview.classList.contains('is-playing');
-          if (pinned) play(true);
-          else stop();
-        };
+          event.preventDefault();
+          activeTrigger = trigger;
+          clearMedia();
 
-        preview.addEventListener('pointerenter', () => play());
-        preview.addEventListener('pointerleave', () => {
-          if (!pinned) stop();
-        });
-        preview.addEventListener('focus', () => play());
-        preview.addEventListener('blur', () => {
-          if (!pinned) stop();
-        });
-        preview.addEventListener('click', toggle);
-        preview.addEventListener('keydown', (event) => {
-          if (event.key === 'Enter' || event.key === ' ') {
-            event.preventDefault();
-            toggle();
+          dialogTitle.textContent = trigger.dataset.mediaTitle || 'Media preview';
+          dialogCaption.textContent = trigger.dataset.mediaCaption || '';
+
+          if (trigger.dataset.mediaType === 'video') {
+            const video = document.createElement('video');
+            video.controls = true;
+            video.playsInline = true;
+            video.preload = 'metadata';
+            video.src = trigger.href;
+            video.setAttribute('aria-label', trigger.dataset.mediaTitle || 'Media preview video');
+            if (trigger.dataset.mediaPoster) video.poster = trigger.dataset.mediaPoster;
+            dialogContent.append(video);
+          } else {
+            const image = document.createElement('img');
+            image.src = trigger.href;
+            image.alt = trigger.querySelector('img')?.alt || trigger.dataset.mediaCaption || '';
+            image.decoding = 'async';
+            dialogContent.append(image);
           }
+
+          document.body.classList.add('dialog-open');
+          dialog.showModal();
+          closeButton.focus();
         });
+      });
+
+      dialog.addEventListener('pointerdown', (event) => {
+        pointerStartedOnBackdrop = event.target === dialog;
+      });
+
+      dialog.addEventListener('pointerup', (event) => {
+        if (pointerStartedOnBackdrop && event.target === dialog) dialog.close();
+        pointerStartedOnBackdrop = false;
+      });
+
+      dialog.addEventListener('close', () => {
+        document.body.classList.remove('dialog-open');
+        clearMedia();
+        if (activeTrigger?.isConnected) activeTrigger.focus();
+        activeTrigger = null;
       });
     })();
   </script>
