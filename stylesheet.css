@@ -771,7 +771,8 @@ summary:focus-visible,
 }
 
 .project-card {
-  overflow: hidden;
+  position: relative;
+  overflow: visible;
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
   background: var(--surface);
@@ -785,6 +786,12 @@ summary:focus-visible,
   margin: 0;
   overflow: hidden;
   background: #e6e9ec;
+  border-radius: calc(var(--radius-md) - 1px) 0 0 calc(var(--radius-md) - 1px);
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  z-index: 10;
 }
 
 .project-card img {
@@ -1071,6 +1078,7 @@ summary:focus-visible,
   .project-card figure {
     min-height: 0;
     aspect-ratio: 16 / 9;
+    border-radius: calc(var(--radius-md) - 1px) calc(var(--radius-md) - 1px) 0 0;
   }
 
   .footer-inner {
